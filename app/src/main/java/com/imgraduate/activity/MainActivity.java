@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onTabSelected(int position) {
                 FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-                transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_CLOSE);
+                transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
                 hideFragments(transaction);
                 switch (position){
                     case 0:

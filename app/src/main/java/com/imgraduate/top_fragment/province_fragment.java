@@ -95,12 +95,16 @@ public class province_fragment extends Fragment {
         });
     }
 
-    private class myAsyncTask extends AsyncTask<String, Void, ArrayList> {
+    private class myAsyncTask extends AsyncTask<String, Integer, Boolean> {
         @Override
-        protected ArrayList doInBackground(String... params) {
+        protected Boolean doInBackground(String... params) {
+            boolean flag = false;
             try {
+                publishProgress(1);
                 URL url = new URL(getString(R.string.shanxiURL) + params[0]);
                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+                connection.setConnectTimeout(20000);
+                connection.setReadTimeout(20000);
                 BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream(),"GBK"));
                 StringBuilder builder = new StringBuilder();
                 String line;
@@ -116,6 +120,7 @@ public class province_fragment extends Fragment {
                         Elements trs = table.select("tr");
                         for (Element tr : trs){
                             if ((tr.attr("class") != null)&&(!tr.attr("class").equals(""))){
+                                flag = true;
                                 Map<String, String> map = new HashMap<String, String>();
                                 map.put("url", tr.select("a").first().attr("href"));
                                 map.put("name", tr.select("a").first().html());
@@ -128,24 +133,35 @@ public class province_fragment extends Fragment {
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             } catch (IOException e) {
-                publishProgress();
+                publishProgress(0);
                 e.printStackTrace();
             }
-            return null;
+            return flag;
         }
 
         @Override
-        protected void onProgressUpdate(Void... values) {
+        protected void onProgressUpdate(Integer... values) {
             super.onProgressUpdate(values);
-            adapter.setFootViewText("请检查您的网络连接");
+            if (values[0] == 0){
+                adapter.setFootViewText("网络连接超时");
+            }
+            else if (values[0] == 1){
+                adapter.setFootViewText("正在加载中");
+            }
         }
 
+
         @Override
-        protected void onPostExecute(ArrayList arrayList) {
-            super.onPostExecute(arrayList);
+        protected void onPostExecute(Boolean flag) {
+            super.onPostExecute(flag);
             adapter.notifyDataSetChanged();
             finishFlag = true;
-//            footerView.setVisibility(View.GONE);
+            if (!flag){
+                adapter.setFootViewText("加载失败");
+            }
+            else{
+                adapter.setFootViewText("正在加载中");
+            }
         }
 
     }

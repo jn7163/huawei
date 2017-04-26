@@ -97,12 +97,16 @@ public class school_fragment extends Fragment {
         });
     }
 
-    private class myAsyncTask extends AsyncTask<String, Void, Void> {
+    private class myAsyncTask extends AsyncTask<String, Integer, Boolean> {
         @Override
-        protected Void doInBackground(String... params) {
+        protected Boolean doInBackground(String... params) {
+            boolean flag = false;
             try {
+                publishProgress(1);
                 URL url = new URL(getString(R.string.nwpuurl) + "?page=" + params[0]);
                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+                connection.setConnectTimeout(20000);
+                connection.setReadTimeout(20000);
                 BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
                 StringBuilder builder = new StringBuilder();
                 String line;
@@ -110,11 +114,11 @@ public class school_fragment extends Fragment {
                     builder.append(line);
                 }
                 finishFlag = false;
-                adapter.setFootViewText("正在加载中...");
                 Document document = Jsoup.parse(builder.toString());
                 Elements divs = document.select("div");
                 for (Element div : divs){
                     if (div.attr("class").equals("col-md-12 ")){
+                        flag = true;
                         System.out.println(div.select("a").html());
                         Map<String, String> map = new HashMap<String, String>();
                         map.put("url", getString(R.string.baseURL) + div.select("a").attr("href"));
@@ -126,23 +130,34 @@ public class school_fragment extends Fragment {
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             } catch (IOException e) {
-                publishProgress();
+                publishProgress(0);
                 e.printStackTrace();
             }
-            return null;
+            return flag;
         }
 
         @Override
-        protected void onPostExecute(Void aVoid) {
-            super.onPostExecute(aVoid);
+        protected void onProgressUpdate(Integer... values) {
+            super.onProgressUpdate(values);
+            if (values[0] == 0){
+                adapter.setFootViewText("网络连接超时");
+            }
+            else if (values[0] == 1){
+                adapter.setFootViewText("正在加载中");
+            }
+        }
+
+        @Override
+        protected void onPostExecute(Boolean flag) {
+            super.onPostExecute(flag);
             adapter.notifyDataSetChanged();
             finishFlag = true;
-        }
-
-        @Override
-        protected void onProgressUpdate(Void... values) {
-            super.onProgressUpdate(values);
-            adapter.setFootViewText("请检查您的网络连接");
+            if (!flag){
+                adapter.setFootViewText("加载失败");
+            }
+            else{
+                adapter.setFootViewText("正在加载中");
+            }
         }
     }
 }
