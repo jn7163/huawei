@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">我是应届生</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="baseURL">http://job.nwpu.edu.cn</string>
+    <string name="nwpuurl">http://job.nwpu.edu.cn/jobInfoList.do</string>
+    <string name="shanxiURL">http://www.yingjiesheng.com/shanxijob/list_</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_floatactivity">floatactivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="database_filename">huawei.db</string>
+
+</resources>
