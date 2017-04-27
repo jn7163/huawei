@@ -1,4 +1,4 @@
-#Wed Apr 26 21:12:14 CST 2017
+#Thu Apr 27 09:30:05 CST 2017
 file.2=C\:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\jsoup-1.6.1_cb19a5a1fde6f9780d9a14c3515e31773d32db14\\classes.dex
 base.2=C\:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\jsoup-1.6.1_cb19a5a1fde6f9780d9a14c3515e31773d32db14
 file.1=C\:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-25.1.0_0507dbdbac095b873c1c87780592d066feccae86\\classes.dex

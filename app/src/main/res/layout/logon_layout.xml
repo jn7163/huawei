@@ -75,6 +75,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="我是男生"
+                android:checked="true"
                 android:id="@+id/rb_boy"/>
             <RadioButton
                 android:layout_width="wrap_content"
@@ -92,14 +93,15 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="我是企业用户"
-                android:id="@+id/rb_enterprise"/>
+                android:text="我是普通用户"
+                android:checked="true"
+                android:id="@+id/rb_normal"/>
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="我是普通用户"
                 android:layout_marginLeft="20dp"
-                android:id="@+id/rb_normal"/>
+                android:text="我是企业用户"
+                android:id="@+id/rb_enterprise"/>
         </RadioGroup>
 
         <LinearLayout

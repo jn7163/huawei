@@ -28,6 +28,8 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+import static android.app.Activity.RESULT_OK;
+
 public class OwnerFragment extends Fragment {
 
     private View view = null;
@@ -54,7 +56,7 @@ public class OwnerFragment extends Fragment {
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(),LogonActivity.class));
+                startActivityForResult(new Intent(getActivity(),LogonActivity.class), 0);
             }
         });
         login.setOnClickListener(new View.OnClickListener() {
@@ -121,5 +123,13 @@ public class OwnerFragment extends Fragment {
         cursor.close();
         db.close();
         return false;
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (resultCode == RESULT_OK){
+            ((MainActivity)getActivity()).showAfterLoginFragment();
+        }
     }
 }
