@@ -17,22 +17,22 @@ ADDED from C:\Users\zhang\AndroidStudioProjects\huawei\app\src\main\AndroidManif
 		ADDED from C:\Users\zhang\AndroidStudioProjects\huawei\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from C:\Users\zhang\AndroidStudioProjects\huawei\app\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] C:\Users\zhang\.android\build-cache\4b6f135e2e8ba13811372b3ab3ebbe25fdd46592\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.1] C:\Users\zhang\.android\build-cache\65ab37053e7ca5d89cf23f1bf1bafbb9d39c1d2a\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:25.1.0] C:\Users\zhang\.android\build-cache\e44aa601da2f1433b44d477f4492d3147f2973e4\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\zhang\.android\build-cache\f5c2f5f03fac866d3a7d4c5b74174dca11152acb\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\zhang\.android\build-cache\af15e8517fa3d0fb3110e3aed69fcf6090790e4b\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\zhang\.android\build-cache\2a1b6db541ba27c4083a437b61b4894dd1f5fcf8\output\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:25.1.0] C:\Users\zhang\.android\build-cache\1647d2a9ce1a87cc4af14e309ce905231e749eff\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.1.0] C:\Users\zhang\.android\build-cache\479acf3846f75f1c0ad8dc14777fee5d2d7ab092\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.1.0] C:\Users\zhang\.android\build-cache\2d8cf422426247b9b745ec70da898bd486a259fa\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\zhang\.android\build-cache\b6091fbff5b9e521c5471ee0a2fc1f69cf69669d\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\zhang\.android\build-cache\f66820ffd381116b143ebb92aa3bcddfca7e527e\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\zhang\.android\build-cache\be0c6c4329dcfc4e0de0d37f028f7943385c9af8\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\zhang\.android\build-cache\1dec6d2f98d2f485098540da299ca28cf672d29b\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.1.0] C:\Users\zhang\.android\build-cache\24ed835a9447926423cd2e463a19c292a24d5d24\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] C:\Users\zhang\.android\build-cache\3492c94f16c86a6ef08e4f013dd9b26bd6c49bb5\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.1] C:\Users\zhang\.android\build-cache\97f1d77e298d38eaa54755c1d44c9d491acc19cc\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.1.0] C:\Users\zhang\.android\build-cache\cea6208f5ae70656377b094c1ff8a99d1a8233d3\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\zhang\.android\build-cache\8798157169637355b8f2f635c80bbe060e64a9e2\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\zhang\.android\build-cache\802d8af23b9a4fa39d0bca06e5928f4b0bfff47e\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\zhang\.android\build-cache\3c221118f18bedeca035af2935cfafe899f9fbf0\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.1.0] C:\Users\zhang\.android\build-cache\a0e2d6fe8b5928d3eb780bf7102dbf984ad15db1\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.1.0] C:\Users\zhang\.android\build-cache\0b5f6b41e2e5be9ef4080a6bdca1f0b3b9d5c483\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\zhang\.android\build-cache\d6c028209a46db5e507ab451bf78e408ae4fd5b1\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\zhang\.android\build-cache\bfe578e43e83451ca9319db818bc089fe991f1e1\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\zhang\.android\build-cache\eaaa46dbfc2c3fb798f13bf3e0d1bc73e6a8e69c\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\zhang\.android\build-cache\0667bd5e62ecf3367bab3369f87525d66e56e21f\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\zhang\.android\build-cache\e9dc978937efc4d7077b32cf3936e96d5a9d8df3\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\zhang\.android\build-cache\a29ede4e2ba70b80855cfc641976fa8a2d53fd21\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.1.0] C:\Users\zhang\.android\build-cache\e44aa601da2f1433b44d477f4492d3147f2973e4\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.1.0] C:\Users\zhang\.android\build-cache\cea6208f5ae70656377b094c1ff8a99d1a8233d3\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		ADDED from C:\Users\zhang\AndroidStudioProjects\huawei\app\src\main\AndroidManifest.xml:9:9-38
 		INJECTED from C:\Users\zhang\AndroidStudioProjects\huawei\app\src\main\AndroidManifest.xml
@@ -59,27 +59,27 @@ ADDED from C:\Users\zhang\AndroidStudioProjects\huawei\app\src\main\AndroidManif
 		ADDED from C:\Users\zhang\AndroidStudioProjects\huawei\app\src\main\AndroidManifest.xml:14:22-77
 application
 ADDED from C:\Users\zhang\AndroidStudioProjects\huawei\app\src\main\AndroidManifest.xml:16:5-39:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] C:\Users\zhang\.android\build-cache\4b6f135e2e8ba13811372b3ab3ebbe25fdd46592\output\AndroidManifest.xml:9:5-20
-MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.1] C:\Users\zhang\.android\build-cache\65ab37053e7ca5d89cf23f1bf1bafbb9d39c1d2a\output\AndroidManifest.xml:11:5-13:38
-MERGED from [com.android.support:design:25.1.0] C:\Users\zhang\.android\build-cache\e44aa601da2f1433b44d477f4492d3147f2973e4\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\zhang\.android\build-cache\f5c2f5f03fac866d3a7d4c5b74174dca11152acb\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\zhang\.android\build-cache\af15e8517fa3d0fb3110e3aed69fcf6090790e4b\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\zhang\.android\build-cache\2a1b6db541ba27c4083a437b61b4894dd1f5fcf8\output\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:transition:25.1.0] C:\Users\zhang\.android\build-cache\479acf3846f75f1c0ad8dc14777fee5d2d7ab092\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:25.1.0] C:\Users\zhang\.android\build-cache\2d8cf422426247b9b745ec70da898bd486a259fa\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\zhang\.android\build-cache\b6091fbff5b9e521c5471ee0a2fc1f69cf69669d\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\zhang\.android\build-cache\f66820ffd381116b143ebb92aa3bcddfca7e527e\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\zhang\.android\build-cache\be0c6c4329dcfc4e0de0d37f028f7943385c9af8\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\zhang\.android\build-cache\1dec6d2f98d2f485098540da299ca28cf672d29b\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.1.0] C:\Users\zhang\.android\build-cache\24ed835a9447926423cd2e463a19c292a24d5d24\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] C:\Users\zhang\.android\build-cache\3492c94f16c86a6ef08e4f013dd9b26bd6c49bb5\output\AndroidManifest.xml:9:5-20
+MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.1] C:\Users\zhang\.android\build-cache\97f1d77e298d38eaa54755c1d44c9d491acc19cc\output\AndroidManifest.xml:11:5-13:38
+MERGED from [com.android.support:design:25.1.0] C:\Users\zhang\.android\build-cache\cea6208f5ae70656377b094c1ff8a99d1a8233d3\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\zhang\.android\build-cache\8798157169637355b8f2f635c80bbe060e64a9e2\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\zhang\.android\build-cache\802d8af23b9a4fa39d0bca06e5928f4b0bfff47e\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\zhang\.android\build-cache\3c221118f18bedeca035af2935cfafe899f9fbf0\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.1.0] C:\Users\zhang\.android\build-cache\0b5f6b41e2e5be9ef4080a6bdca1f0b3b9d5c483\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\zhang\.android\build-cache\d6c028209a46db5e507ab451bf78e408ae4fd5b1\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\zhang\.android\build-cache\bfe578e43e83451ca9319db818bc089fe991f1e1\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\zhang\.android\build-cache\eaaa46dbfc2c3fb798f13bf3e0d1bc73e6a8e69c\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\zhang\.android\build-cache\0667bd5e62ecf3367bab3369f87525d66e56e21f\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\zhang\.android\build-cache\e9dc978937efc4d7077b32cf3936e96d5a9d8df3\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\zhang\.android\build-cache\a29ede4e2ba70b80855cfc641976fa8a2d53fd21\output\AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from C:\Users\zhang\AndroidStudioProjects\huawei\app\src\main\AndroidManifest.xml:19:9-41
 	android:supportsRtl
-		ADDED from [com.ashokvarma.android:bottom-navigation-bar:1.3.1] C:\Users\zhang\.android\build-cache\65ab37053e7ca5d89cf23f1bf1bafbb9d39c1d2a\output\AndroidManifest.xml:13:9-35
+		ADDED from [com.ashokvarma.android:bottom-navigation-bar:1.3.1] C:\Users\zhang\.android\build-cache\97f1d77e298d38eaa54755c1d44c9d491acc19cc\output\AndroidManifest.xml:13:9-35
 	android:allowBackup
 		ADDED from C:\Users\zhang\AndroidStudioProjects\huawei\app\src\main\AndroidManifest.xml:17:9-35
 	android:icon
-		ADDED from C:\Users\zhang\AndroidStudioProjects\huawei\app\src\main\AndroidManifest.xml:18:9-38
+		ADDED from C:\Users\zhang\AndroidStudioProjects\huawei\app\src\main\AndroidManifest.xml:18:9-43
 	android:theme
 		ADDED from C:\Users\zhang\AndroidStudioProjects\huawei\app\src\main\AndroidManifest.xml:20:9-40
 activity#com.imgraduate.activity.WebviewActivity

@@ -3359,9 +3359,9 @@ containing a value of this type.
         public static final int province=0x7f0d008e;
         public static final int radio=0x7f0d0064;
         public static final int rb_boy=0x7f0d00ae;
-        public static final int rb_enterprise=0x7f0d00b0;
+        public static final int rb_enterprise=0x7f0d00b1;
         public static final int rb_girl=0x7f0d00af;
-        public static final int rb_normal=0x7f0d00b1;
+        public static final int rb_normal=0x7f0d00b0;
         public static final int recyclerview=0x7f0d007b;
         public static final int register=0x7f0d00bb;
         public static final int right=0x7f0d0033;

@@ -4,24 +4,24 @@
         "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\hire.png"
     },
     {
-        "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spanner.png",
-        "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\spanner.png"
-    },
-    {
         "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\love_red.png",
         "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\love_red.png"
     },
     {
-        "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\publish.png",
-        "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\publish.png"
+        "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spanner.png",
+        "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\spanner.png"
+    },
+    {
+        "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\zhilian.png",
+        "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\zhilian.png"
     },
     {
         "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_eye_n.png",
         "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\button_eye_n.png"
     },
     {
-        "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\zhilian.png",
-        "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\zhilian.png"
+        "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\publish.png",
+        "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\publish.png"
     },
     {
         "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\an360.png",

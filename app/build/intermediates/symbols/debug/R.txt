@@ -1070,9 +1070,9 @@ int id progress_horizontal 0x7f0d0007
 int id province 0x7f0d008e
 int id radio 0x7f0d0064
 int id rb_boy 0x7f0d00ae
-int id rb_enterprise 0x7f0d00b0
+int id rb_enterprise 0x7f0d00b1
 int id rb_girl 0x7f0d00af
-int id rb_normal 0x7f0d00b1
+int id rb_normal 0x7f0d00b0
 int id recyclerview 0x7f0d007b
 int id register 0x7f0d00bb
 int id right 0x7f0d0033
