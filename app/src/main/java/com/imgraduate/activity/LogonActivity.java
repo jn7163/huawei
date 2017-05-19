@@ -19,6 +19,10 @@ import android.widget.Toast;
 import com.imgraduate.db.MyDatabaseHelper;
 import com.imgraduate.entity.Identity;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -125,6 +129,16 @@ public class LogonActivity extends Activity{
                     OwnerFragment.identity.setSex(sex);
                     OwnerFragment.identity.setType(type);
                     setResult(RESULT_OK);
+                    try{
+                        File file = new File(LogonActivity.this.getFilesDir().getPath(),"UserInfo");
+                        FileOutputStream outputStream = new FileOutputStream(file);
+                        outputStream.write((username + "##" + password).getBytes());
+                        outputStream.close();
+                    } catch (FileNotFoundException e) {
+                        e.printStackTrace();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
                     finish();
                 }
             }

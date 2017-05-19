@@ -90,6 +90,7 @@ public class AfterLoginFragment extends Fragment {
                 if (file.isFile() && file.exists()){
                     file.delete();
                 }
+                ((MainActivity)getActivity()).updateNewsFragment();
                 ((MainActivity)getActivity()).showOwnerFragment();
             }
         });

@@ -4,12 +4,12 @@
         "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\hire.png"
     },
     {
-        "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\love_red.png",
-        "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\love_red.png"
-    },
-    {
         "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\spanner.png",
         "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\spanner.png"
+    },
+    {
+        "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\love_red.png",
+        "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\love_red.png"
     },
     {
         "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\zhilian.png",
@@ -56,12 +56,12 @@
         "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\baidu.png"
     },
     {
-        "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\foot_store_light.png",
-        "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\foot_store_light.png"
-    },
-    {
         "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\login_confirm.png",
         "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\login_confirm.png"
+    },
+    {
+        "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\foot_store_light.png",
+        "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\foot_store_light.png"
     },
     {
         "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\male.png",

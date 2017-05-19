@@ -71,6 +71,7 @@ public class OwnerFragment extends Fragment {
                     InputMethodManager inputMethodManager = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
                     inputMethodManager.hideSoftInputFromWindow(getActivity().getCurrentFocus().getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
                     Toast.makeText(getActivity(), "登陆成功", Toast.LENGTH_SHORT).show();
+                    ((MainActivity)getActivity()).updateNewsFragment();
                     ((MainActivity)getActivity()).showAfterLoginFragment();
                     try{
                         File file = new File(getActivity().getFilesDir().getPath(),"UserInfo");
@@ -115,7 +116,6 @@ public class OwnerFragment extends Fragment {
             identity.setSchool(cursor.getString(cursor.getColumnIndex("school")));
             identity.setSex(cursor.getString(cursor.getColumnIndex("sex")));
             identity.setType(cursor.getString(cursor.getColumnIndex("type")));
-
             cursor.close();
             db.close();
             return true;
@@ -129,6 +129,7 @@ public class OwnerFragment extends Fragment {
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (resultCode == RESULT_OK){
+            ((MainActivity)getActivity()).updateNewsFragment();
             ((MainActivity)getActivity()).showAfterLoginFragment();
         }
     }

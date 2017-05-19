@@ -40,12 +40,12 @@
         "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\spanner.png"
     },
     {
-        "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\foot_store_light.png",
-        "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\foot_store_light.png"
-    },
-    {
         "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\school.png",
         "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\school.png"
+    },
+    {
+        "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\foot_store_light.png",
+        "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\foot_store_light.png"
     },
     {
         "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\button_clear.png",
@@ -84,12 +84,12 @@
         "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\job51.png"
     },
     {
-        "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\tengxun.png",
-        "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\tengxun.png"
-    },
-    {
         "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\answer.png",
         "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\answer.png"
+    },
+    {
+        "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\tengxun.png",
+        "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\tengxun.png"
     },
     {
         "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\love_red.png",
@@ -104,12 +104,12 @@
         "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\baidu.png"
     },
     {
-        "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\hire.png",
-        "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\hire.png"
-    },
-    {
         "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\male.png",
         "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\male.png"
+    },
+    {
+        "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\hire.png",
+        "source": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\src\\main\\res\\drawable-hdpi\\hire.png"
     },
     {
         "merged": "C:\\Users\\zhang\\AndroidStudioProjects\\huawei\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\login_confirm.png",

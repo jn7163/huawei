@@ -185,4 +185,15 @@ public class MainActivity extends AppCompatActivity {
         }
         transaction.commit();
     }
+
+    public void updateNewsFragment(){
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        if (newsFragment != null){
+            transaction.remove(newsFragment);
+        }
+        newsFragment = new NewsFragment();
+        transaction.add(R.id.mContent, newsFragment);
+
+        transaction.commit();
+    }
 }
